@@ -1,0 +1,27 @@
+/* Nav.css */
+
+.navbar {
+    background-color: #fff; /* Set the background color to white */
+    border-top: 1px solid #afafaf; /* Set a light blue solid line at the top */
+    border-bottom: 1px solid#ddd; /* Set a light blue solid line at the bottom */
+    text-align: right; /* Align text to the right */
+    padding: 0px 130px;
+}
+  
+  .navbarMenu {
+    display: inline-block; /* Display the menu items as inline blocks */
+    color: #000000; /* Set the default text color to light blue */
+    padding: 14px 25px;
+    text-align: center; /* Align the text within the menu item to the center */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s; /* Add a smooth transition for the color change */
+  }
+  
+  .navbarMenu:hover {
+    border-bottom: 1px solid#3498db;
+    background-color: #d0e2f881;
+    color: #3498db; /* Change the text color to white on hover */
+  }
+  
+  /* You can add more styles as needed for your specific design */
+  

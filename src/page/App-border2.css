@@ -1,0 +1,35 @@
+.App-boder {
+
+    width: 96vw; /* 전체 너비에서 좌우 2%의 여백을 뺀 값 */
+    height: 96vh; /* 전체 높이에서 상하 2%의 여백을 뺀 값 */
+    margin: 1.56vw;
+    margin-top: 2vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid#3498db;
+    padding-bottom: 150px;
+    
+  }
+  
+
+  .container {
+    max-width: 1000px; /* 최대 너비 설정 (예시로 800px 사용) */
+    margin: 0 auto; /* 가운데 정렬을 위한 margin 설정 */
+    padding: 0 20px; /* 좌우 여백 설정 */
+  }
+
+  .App {
+    text-align: center;
+  }
+  body {
+    margin: 0; /* body의 기본 margin 제거 */
+  }
+
+  .App-header img {
+    max-width: 100%; /* 이미지가 부모 요소를 넘어가지 않도록 */
+    height: auto; /* 가로 비율 유지 */
+  }
+  

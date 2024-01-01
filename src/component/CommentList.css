@@ -1,0 +1,94 @@
+/* Styles for CommentList component */
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for star icons */
+  /* You might need to adjust the star size, margin, or any other style based on your preference */
+  svg {
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  .cbutton {
+    margin: 0 5px;
+    display:inline-block;
+    width: 80px;
+    height: 30px;
+    padding: 0px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #3498db;
+    border-radius: 3px;
+    color: #3498db;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .cbutton:hover {
+    background-color: rgba(157, 199, 250, 0.831);
+    color: #3498db;
+    border-color: #3498db;
+  }
+  .blank{
+    text-align: center;
+  }
+
+  /* CommentList.css */
+
+/* Container for the whole comment section */
+.comment-section {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Individual comment styling */
+.comment {
+  list-style: none;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+/* Styling for the like button */
+.like-button {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+/* Styling for the delete button */
+.delete-button {
+  cursor: pointer;
+  margin-left: 15px;
+}
+.best{
+  width: 80px;
+  height: 25px;
+  padding: 0px 0px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid rgb(255, 61, 61);
+  border-radius: 3px;
+  color: rgb(255, 61, 61);
+  background-color: #ffffff;
+}
+

@@ -1,0 +1,74 @@
+.topicborder {
+  width: 80%;
+  height: 80vh;
+  margin: 5vh auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.loan {
+  color: white;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.topicContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 700px;
+}
+
+.topicInData {
+  width: 150%;
+  max-height: 70vh;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  overflow: auto;
+  margin-top: auto;
+}
+
+.topicInData ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; /* 목록 사이에 점 제거 */
+}
+
+.topicInData li {
+  padding: 2px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.topicInData img {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.topicInData p {
+  margin: 0;
+}
+
+.topicInData .loan {
+  margin-top: 10px;
+}
+
+.loan {
+  color: white;
+  border-radius: 4px;
+  display: inline-block;
+}
+.loan.available {
+  color: blue;
+}
+.loan.loaned {
+  color: red;
+}

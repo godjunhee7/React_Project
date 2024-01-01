@@ -1,0 +1,126 @@
+.first-check {
+    align-self: flex-start;
+    margin-top: 20px;  /* 왼쪽 여백 추가 */
+    margin-left: 60px;
+}
+
+.input-button-container {
+    display: flex;
+    align-items: center; /* 세로 중앙 정렬 */
+    
+  }
+
+.search-panel {
+    /* border: none;
+    align-self: flex-start;   
+    padding-right: 240px; */
+    display: flex;
+    align-items: center;
+    border: none;
+    align-self: flex-start;   
+    /* padding-right: 240px; */
+
+}
+
+.first-button  {
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 8px;
+    width: 100px;
+    margin-left: 10px; /* 버튼 간격 조절을 위해 margin 추가 */
+    box-sizing: border-box;  /* 부모의 padding, border를 포함한 너비로 설정 */
+    align-self: flex-start;
+    transition: 0.3s;
+    display: inline-block;
+    
+}
+
+.first-select {
+    width: 100px;
+    height: 50px;
+    box-sizing: border-box; /* 부모의 padding, border를 포함한 너비로 설정 */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: 0.3s;
+    align-self: flex-start;
+    padding-left: 10px;
+    
+}
+
+.inquiry-div {
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+}
+
+.second-select {
+    width: 120px;
+    height: 50px;
+    box-sizing: border-box; /* 부모의 padding, border를 포함한 너비로 설정 */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: 0.3s;
+    padding-left: 10px;
+    margin-left: 5px;
+}
+
+.third-select {
+    width: 120px;
+    height: 50px;
+    box-sizing: border-box; /* 부모의 padding, border를 포함한 너비로 설정 */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: 0.3s;
+    padding-left: 10px;
+    margin-left: 5px;
+}
+
+
+
+.first-input {
+    width: 1300px;
+    height: 50px;
+    box-sizing: border-box; /* 부모의 padding, border를 포함한 너비로 설정 */
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    transition: 0.3s;
+    align-self: flex-start;
+
+}
+
+.a-title {
+    text-decoration: none;
+    cursor: pointer;
+    color: purple;
+
+}
+
+.brief-button {
+    /* margin-left: auto; */
+    margin-right: 100px;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 8px;
+    width: 100px;
+    height: 40px;
+}
+.loan.available {
+
+    color: blue;
+  }
+  .loan.loaned {
+    padding-right: 25px;
+    color: red;
+  }

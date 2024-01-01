@@ -1,0 +1,104 @@
+/* Topic.css */
+
+/* .grid-container{
+  display: grid;
+  grid-template-rows: repeat(2, 150px); 
+  grid-template-columns: repeat(5, 180px); 
+
+  margin-top:5%;
+  margin-left:18.5%;
+}
+
+.image-text{
+  font-size: 18px;
+  text-align: center;
+} */
+
+/* .grid-container div {
+  border: 2px solid #ddd;
+  padding: 2px;
+  background: #255 255 255;
+  height: 0%; /* 부모 그리드 행의 높이에 맞춤 */
+  /* box-sizing: border-box; border와 padding이 크기에 포함되도록 설정 */
+
+
+  .grid-container {
+    display: grid;  
+    grid-template-rows: repeat(2, 180px);
+    grid-template-columns: repeat(5, 180px);
+  
+    justify-content: center;
+    margin:auto;
+    /*align-items: center;  */
+    
+
+    padding-top:10%;
+    padding-left:10%;
+    padding-right:10%;
+    
+
+    border: 8px solid #3498db;
+    padding: 10px;
+    margin-top:3%;    /*테두리를 위에서 3% 떨어뜨림*/
+    margin-right:10%;
+    margin-left:10%;
+    margin-bottom:3%;
+  
+  
+  }
+
+  #header_navi > li{
+    display: inline-block;
+    
+      }
+      #header_navi > li > a {
+        display:block; 
+        position:relative; 
+        padding-bottom:19px;
+        margin: 0px;
+      }
+      #header_navi > li > a > span {
+        position:absolute; 
+        bottom:0; 
+        left:50%; 
+        color:#000; 
+        line-height:1.462em; 
+        white-space:nowrap; 
+        transform:translate(-50%, 0)
+    }
+  
+  .click{
+    border: none;
+    outline: none;
+    background-color: inherit ;
+    cursor: pointer;
+  }
+
+
+  .flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    padding-left : 10%;
+    padding-right : 10%;
+  }
+  .flexbox > div {
+    flex-basis: calc((100% - (3 * 10%)) / 4);
+    /* 여기서는 부모 컨테이너 너비의 17.5%를 기준으로 계산했습니다. */
+  }
+  .flexbox>div>div{
+    border-bottom-style: ridge;
+    
+  }
+  .custom-list-item {
+    cursor: pointer;
+    user-select: none; /* 텍스트 선택 방지 */
+  }
+  
+  .custom-button-text {
+    display: inline-block;
+  }
+  
+  .custom-list-item:hover .custom-button-text {
+    text-decoration: underline; /* 원하는 스타일로 변경 (예: 밑줄) */
+  }
